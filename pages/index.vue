@@ -1,12 +1,7 @@
 <template> 
 <div>
 <h2>HTML Iframes</h2>
-<p>You can use the height and width attributes to specify the size of the iframe:</p>
-
-<button @click="opens">Open {{open}}</button>
-
-<iframe v-if="open" src="https://checkoutiii-chhumsina.vercel.app/"  class="iframe" title="Iframe Example"></iframe>
-
+<p v-for="(i, index) in 100" :key="index"> {{index}} - You can use the height</p>
 </div>
 </template>
 
