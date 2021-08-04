@@ -1,7 +1,9 @@
 <template> 
 <div>
 <h2>HTML Iframes</h2>
+<input placeholder="top is me"/>
 <p v-for="(i, index) in 100" :key="index"> {{index}} - You can use the height</p>
+<input placeholder="bottom is me"/>
 <button style="position:fixed; bottom:0;">save</button>
 </div>
 </template>
