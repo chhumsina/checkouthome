@@ -3,7 +3,7 @@
 <h2>HTML Iframes</h2>
 <p>You can use the height and width attributes to specify the size of the iframe:</p>
 
-<button @click="open=true">Open</button>
+<button @click="open=!open">Open</button>
 
 <iframe v-if="open" src="https://checkoutiii-chhumsina.vercel.app/"  class="iframe" title="Iframe Example"></iframe>
 
